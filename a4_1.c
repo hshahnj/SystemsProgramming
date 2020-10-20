@@ -20,8 +20,6 @@ int main() {
                 exit(2);
         }
 
-        printf("I am after the errors before the for loop");
-
         for(;;){
                 i++;
                 srand(getpid()+i);
